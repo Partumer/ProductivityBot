@@ -92,7 +92,7 @@ Render автоматически обнаружит `Dockerfile` или исп�
 project/
 ├── bot.py                 # Основной Telegram-бот
 ├── ai.py                  # Логика вызова OpenAI и парсинга JSON
-├── calendar.py            # Интеграция с Google Calendar API
+├── google_calendar.py     # Интеграция с Google Calendar API
 ├── config.py              # Загрузка env-переменных
 ├── requirements.txt       # Зависимости Python
 ├── Dockerfile             # Для деплоя на Render

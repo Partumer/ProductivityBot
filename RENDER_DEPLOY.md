@@ -20,7 +20,7 @@
 - Включите Google Calendar API
 - Создайте OAuth 2.0 Client ID (тип: Desktop app)
 - Скачайте `credentials.json`
-- Запустите локально `python get_google_token.py` для получения refresh token
+- Запустите локально `python3 get_google_token.py` для получения refresh token
 - Скопируйте `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`
 
 ## 🎯 Деплой на Render

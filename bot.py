@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 from ai import parse_event
-from calendar import create_event
+from google_calendar import create_event
 from config import TELEGRAM_TOKEN
 
 # Настройка логирования
